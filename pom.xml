@@ -66,6 +66,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.translated.lara</groupId>
+            <artifactId>lara-sdk</artifactId>
+            <version>1.2.3</version>
+        </dependency>
     </dependencies>
 
     <build>
