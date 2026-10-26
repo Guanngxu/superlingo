@@ -1,6 +1,5 @@
 package com.guanngxu.superlingo.client;
 
-import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
@@ -38,13 +37,11 @@ public class OpenFoodFactsClient {
             "origins_tags";
 
     private final HttpClient httpClient;
-    private final Gson gson;
 
     public OpenFoodFactsClient() {
         this.httpClient = HttpClient.newBuilder()
                 .connectTimeout(Duration.ofSeconds(10))
                 .build();
-        this.gson = new Gson();
     }
 
     /**

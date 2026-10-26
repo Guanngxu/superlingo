@@ -53,6 +53,6 @@ public class ProductDao {
                 "ingredients = EXCLUDED.ingredients, " +
                 "origins = EXCLUDED.origins";
         jdbc.update(sql, p.getBarcode(), p.getNameZh(), p.getNameEn(), p.getImageUrl(), p.getSource(), p.getCountries(),
-                p.getCategories(), p.getQuantity(), p.getNovaGroup(), p.getBrands(), p.getIngredients(), p.getIngredients());
+                p.getCategories(), p.getQuantity(), p.getNovaGroup(), p.getBrands(), p.getIngredients(), p.getOrigins());
     }
 }

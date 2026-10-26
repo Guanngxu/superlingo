@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "barcode": "5449000000996",
+    "nameZh": "可口可乐 经典原味",
+    "nameEn": "Coca-Cola Original",
+    "imageUrl": "https://images.openfoodfacts.org/images/products/544/900/000/0996/front_en.1129.400.jpg",
+    "source": "AUTO",
+    "quantity": "330 ml",
+    "brands": "COCA-COLA SERVICES SA/NV",
+    "categories": "饮料和饮料制品， 饮料， 非酒精饮料， 碳酸饮料， 软饮料， 汽水， 可乐",
+    "countries": "阿尔巴尼亚， 奥地利， 比利时， 保加利亚， 加拿大， 捷克共和国， 法国， 格鲁吉亚， 德国， 加纳， 冰岛， 印度， 意大利， 拉脱维亚， 立陶宛， 墨西哥， 摩洛哥， 波兰， 罗马尼亚， 塞内加尔， 西班牙， 瑞士， 土耳其， 乌克兰， 英国， 美国",
+    "origins": "碳酸水（83.4%）， 糖（10.6%）， E150d（2%）， E338（2%）， 天然香料（2%）",
+    "ingredients": "碳酸水（83.4%）， 糖（10.6%）， E150d（2%）， E338（2%）， 天然香料（2%）",
+    "novaGroup": 4
+  }
+}
