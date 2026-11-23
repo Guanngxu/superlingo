@@ -26,14 +26,6 @@ public class ProductDao {
     }
 
     /**
-     * 查询全部商品（后台浏览用）
-     */
-    public List<Product> findAll() {
-        String sql = "SELECT * FROM products ORDER BY barcode";
-        return jdbc.query(sql, new BeanPropertyRowMapper<>(Product.class));
-    }
-
-    /**
      * 有则更新，无则插入（PostgreSQL 的 ON CONFLICT 语法）
      */
     public void saveOrUpdate(Product p) {

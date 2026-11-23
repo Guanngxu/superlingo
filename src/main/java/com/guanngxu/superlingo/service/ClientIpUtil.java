@@ -1,4 +1,4 @@
-package com.guanngxu.superlingo.utils;
+package com.guanngxu.superlingo.service;
 
 import jakarta.servlet.http.HttpServletRequest;
 

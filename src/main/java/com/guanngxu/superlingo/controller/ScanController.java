@@ -2,8 +2,8 @@ package com.guanngxu.superlingo.controller;
 
 import com.guanngxu.superlingo.common.ApiResponse;
 import com.guanngxu.superlingo.entity.Product;
+import com.guanngxu.superlingo.service.ClientIpUtil;
 import com.guanngxu.superlingo.service.ScanService;
-import com.guanngxu.superlingo.utils.ClientIpUtil;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

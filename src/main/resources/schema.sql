@@ -19,10 +19,3 @@ CREATE TABLE IF NOT EXISTS scan_logs (
     CONSTRAINT fk_scan_logs_product FOREIGN KEY (barcode) REFERENCES products (barcode)
 );
 CREATE INDEX IF NOT EXISTS idx_scan_logs_barcode ON scan_logs (barcode);
-
--- 3. 管理员表：绝不存明文密码，只存哈希
-CREATE TABLE IF NOT EXISTS admin_users (
-    id            SERIAL PRIMARY KEY,
-    username      VARCHAR(100) UNIQUE NOT NULL,
-    password_hash VARCHAR(255) NOT NULL
-);

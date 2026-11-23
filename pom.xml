@@ -46,11 +46,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
-        <!-- 密码哈希（BCrypt），绝不存明文密码 -->
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-crypto</artifactId>
-        </dependency>
         <!-- JSON 解析（Open Food Facts 返回 JSON），统一使用 Gson -->
         <dependency>
             <groupId>com.google.code.gson</groupId>

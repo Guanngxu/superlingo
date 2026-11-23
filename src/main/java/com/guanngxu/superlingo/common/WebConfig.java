@@ -1,4 +1,4 @@
-package com.guanngxu.superlingo.config;
+package com.guanngxu.superlingo.common;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

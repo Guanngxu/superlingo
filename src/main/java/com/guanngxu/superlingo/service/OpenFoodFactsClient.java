@@ -1,10 +1,9 @@
-package com.guanngxu.superlingo.client;
+package com.guanngxu.superlingo.service;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.guanngxu.superlingo.entity.Product;
-import com.guanngxu.superlingo.utils.TranslateUtil;
 import org.springframework.stereotype.Component;
 
 import java.net.URI;

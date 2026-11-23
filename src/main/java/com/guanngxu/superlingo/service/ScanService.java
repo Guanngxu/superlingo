@@ -1,6 +1,5 @@
 package com.guanngxu.superlingo.service;
 
-import com.guanngxu.superlingo.client.OpenFoodFactsClient;
 import com.guanngxu.superlingo.dao.ProductDao;
 import com.guanngxu.superlingo.dao.ScanLogDao;
 import com.guanngxu.superlingo.entity.Product;
